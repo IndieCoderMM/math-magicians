@@ -38,9 +38,11 @@ class Calculator extends React.Component {
         <button type="button" className="operator">
           +
         </button>
-        <button type="button">0</button>
+        <button type="button" className="wide-btn">
+          0
+        </button>
         <button type="button">.</button>
-        <button type="button" className="operator wide">
+        <button type="button" className="operator">
           =
         </button>
       </div>

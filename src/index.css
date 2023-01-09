@@ -45,6 +45,6 @@ body {
   color: white;
 }
 
-.operator.wide {
+.wide-btn {
   grid-column: span 2;
 }
