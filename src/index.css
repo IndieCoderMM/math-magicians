@@ -14,7 +14,7 @@ body {
   align-content: center;
   margin-top: 2rem;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(6, 90px);
 }
 
 .calculator-grid > button {
@@ -36,7 +36,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

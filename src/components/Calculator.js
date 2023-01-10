@@ -7,7 +7,7 @@ import calculate from '../logic/calculate';
 export default class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.handleClick = this.handleClick.bind(this);
+    this.updateCalculation = this.updateCalculation.bind(this);
     this.state = {
       total: null,
       next: null,
@@ -15,8 +15,7 @@ export default class Calculator extends Component {
     };
   }
 
-  handleClick(event) {
-    const buttonName = event.target.textContent;
+  updateCalculation(buttonName) {
     const data = calculate(this.state, buttonName);
     this.setState(data);
   }
@@ -26,7 +25,7 @@ export default class Calculator extends Component {
     return (
       <div className="calculator-grid">
         <Display total={total} next={next} operation={operation} />
-        <Keypad handleClick={this.handleClick} />
+        <Keypad updateCalculation={this.updateCalculation} />
       </div>
     );
   }
