@@ -1,47 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Keypad from './Keypad';
+import calculate from '../logic/calculate';
 
 // eslint-disable-next-line
-class Calculator extends React.Component {
+export default class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
+  handleClick(event) {
+    const buttonName = event.target.textContent;
+    const data = calculate(this.state, buttonName);
+    console.log(data);
+    this.setState(data);
+  }
+
   render() {
+    const { total, next, operation } = this.state;
     return (
       <div className="calculator-grid">
         <div className="output-screen">
-          <p className="output-text">0</p>
+          <div className="formula">
+            {operation}
+            {next}
+          </div>
+          <div className="output-text">{total || 0}</div>
         </div>
-        <button type="button">AC</button>
-        <button type="button">+/-</button>
-        <button type="button">%</button>
-        <button type="button" className="operator">
-          /
-        </button>
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
-        <button type="button" className="operator">
-          x
-        </button>
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button type="button" className="operator">
-          -
-        </button>
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
-        <button type="button" className="operator">
-          +
-        </button>
-        <button type="button" className="wide-btn">
-          0
-        </button>
-        <button type="button">.</button>
-        <button type="button" className="operator">
-          =
-        </button>
+        <Keypad handleClick={this.handleClick} />
       </div>
     );
   }
 }
-
-export default Calculator;
