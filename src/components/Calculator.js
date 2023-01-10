@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Keypad from './Keypad';
+import Display from './Display';
 import calculate from '../logic/calculate';
 
 // eslint-disable-next-line
@@ -17,7 +18,6 @@ export default class Calculator extends Component {
   handleClick(event) {
     const buttonName = event.target.textContent;
     const data = calculate(this.state, buttonName);
-    console.log(data);
     this.setState(data);
   }
 
@@ -25,13 +25,7 @@ export default class Calculator extends Component {
     const { total, next, operation } = this.state;
     return (
       <div className="calculator-grid">
-        <div className="output-screen">
-          <div className="formula">
-            {operation}
-            {next}
-          </div>
-          <div className="output-text">{total || 0}</div>
-        </div>
+        <Display total={total} next={next} operation={operation} />
         <Keypad handleClick={this.handleClick} />
       </div>
     );
