@@ -17,8 +17,14 @@ export default class Display extends Component {
   }
 }
 
+Display.defaultProps = {
+  total: '',
+  next: '',
+  operation: '',
+};
+
 Display.propTypes = {
-  total: PropTypes.string.isRequired,
-  next: PropTypes.string.isRequired,
-  operation: PropTypes.string.isRequired,
+  total: PropTypes.string,
+  next: PropTypes.string,
+  operation: PropTypes.string,
 };
