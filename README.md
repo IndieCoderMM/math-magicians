@@ -61,77 +61,49 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need [Node.js](https://nodejs.org/en/) installed on your machine.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:IndieCoderMM/math-magicians.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
+Install the dependencies with:
 
 ```sh
-  cd my-project
-  gem install
+  cd math-magicians
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm start
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm run test
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
 ```sh
-
+  npm run build
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -9,13 +9,13 @@ body {
   justify-content: center;
   align-content: center;
   margin-top: 2rem;
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(4, 150px);
   grid-template-rows: repeat(6, 100px);
 }
 
 .calculator-grid > button {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   border: solid 1px black;
   outline: none;
 }

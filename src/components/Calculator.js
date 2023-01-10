@@ -8,15 +8,9 @@ class Calculator extends React.Component {
         <div className="output-screen">
           <p className="output-text">0</p>
         </div>
-        <button type="button" className="operator">
-          AC
-        </button>
-        <button type="button" className="operator">
-          +/-
-        </button>
-        <button type="button" className="operator">
-          %
-        </button>
+        <button type="button">AC</button>
+        <button type="button">+/-</button>
+        <button type="button">%</button>
         <button type="button" className="operator">
           /
         </button>
