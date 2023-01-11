@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,8 +13,8 @@ body {
   justify-content: center;
   align-content: center;
   margin-top: 2rem;
-  grid-template-columns: repeat(4, 150px);
-  grid-template-rows: repeat(6, 100px);
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(6, 90px);
 }
 
 .calculator-grid > button {
@@ -28,16 +32,22 @@ body {
   grid-column: span 4;
   background-color: cadetblue;
   border: solid 1px black;
+  padding: 0.5rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .output-text {
-  flex: 1;
-  text-align: right;
   font-size: 2.5rem;
-  color: white;
-  padding: 0.5rem;
+}
+
+.formula {
+  font-size: 1.5rem;
+  color: powderblue;
 }
 
 .operator {
