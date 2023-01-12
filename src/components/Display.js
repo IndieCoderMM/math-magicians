@@ -1,26 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line
-export default class Display extends Component {
-  render() {
-    const { operation, next, total } = this.props;
-    return (
-      <div className="output-screen">
-        <div className="formula">
-          {operation}
-          {next}
-        </div>
-        <div className="output-text">{total || 0}</div>
-      </div>
-    );
+const Display = ({ operation, next, total }) => {
+  let result = 0;
+  if (total !== null) {
+    if (Number.isNaN(Number(total))) result = 'ERR0R!';
+    else result = total;
   }
-}
+  return (
+    <div className="output-screen">
+      <div className="formula">
+        {operation}
+        {next}
+      </div>
+      <div className="output-text">{result}</div>
+    </div>
+  );
+};
 
 Display.defaultProps = {
-  total: '',
-  next: '',
-  operation: '',
+  total: null,
+  next: null,
+  operation: null,
 };
 
 Display.propTypes = {
@@ -28,3 +29,5 @@ Display.propTypes = {
   next: PropTypes.string,
   operation: PropTypes.string,
 };
+
+export default Display;
