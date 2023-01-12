@@ -25,34 +25,42 @@ body {
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(240, 255, 255, 0.603);
+  background-color: cyan;
+}
+
+.operator {
+  background-color: chocolate;
+  color: white;
+}
+
+.calculator-grid .operator:hover {
+  background-color: coral;
+  color: black;
 }
 
 .output-screen {
   grid-column: span 4;
   background-color: cadetblue;
   border: solid 1px black;
-  padding: 0.5rem;
+  padding: 0.25rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-end;
+  text-align: right;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .output-text {
+  width: 100%;
   font-size: 2.5rem;
+  overflow: hidden;
 }
 
 .formula {
+  width: 100%;
   font-size: 1.5rem;
   color: powderblue;
-}
-
-.operator {
-  background-color: chocolate;
-  color: white;
 }
 
 .wide-btn {
