@@ -22,7 +22,7 @@ footer {
   text-align: center;
   font-size: 1.4rem;
   background-color: #272727;
-  color: #fff;
+  color: var(--yellow);
 }
 
 .react-icon {
@@ -85,6 +85,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--yellow);
   gap: 1rem;
 }
 
@@ -174,6 +175,7 @@ footer {
   grid-template-rows: repeat(7, 60px);
   background-color: white;
   width: fit-content;
+  height: fit-content;
   padding: 1rem;
   gap: 0.25rem;
   border-radius: 1rem;
@@ -235,4 +237,34 @@ footer {
 
 .wide-btn {
   grid-column: span 2;
+}
+
+@media (max-width: 719px) {
+  .main-header {
+    flex-direction: column;
+  }
+
+  .button-group {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .calculator-page {
+    flex-direction: column;
+  }
+
+  .calculator-page .content {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .calculator-grid {
+    grid-template-columns: repeat(4, 60px);
+    align-self: center;
+  }
+
+  .quote-text {
+    font-size: 1em;
+    padding: 3rem 0;
+  }
 }
