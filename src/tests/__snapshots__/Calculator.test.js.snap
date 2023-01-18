@@ -1,126 +1,140 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Keypad Component should render correctly 1`] = `
-Array [
+exports[`Calculator Component should render correctly 1`] = `
+<div
+  className="calculator-grid"
+>
+  <div
+    className="output-screen"
+  >
+    <div
+      className="formula"
+    />
+    <div
+      className="output-text"
+    >
+      0
+    </div>
+  </div>
   <button
     onClick={[Function]}
     type="button"
   >
     AC
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     +/-
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     %
-  </button>,
+  </button>
   <button
     className="operator"
     onClick={[Function]}
     type="button"
   >
     ÷
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     7
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     8
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     9
-  </button>,
+  </button>
   <button
     className="operator"
     onClick={[Function]}
     type="button"
   >
     x
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     4
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     5
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     6
-  </button>,
+  </button>
   <button
     className="operator"
     onClick={[Function]}
     type="button"
   >
     -
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     1
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     2
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     3
-  </button>,
+  </button>
   <button
     className="operator"
     onClick={[Function]}
     type="button"
   >
     +
-  </button>,
+  </button>
   <button
     className="wide-btn"
     onClick={[Function]}
     type="button"
   >
     0
-  </button>,
+  </button>
   <button
     onClick={[Function]}
     type="button"
   >
     .
-  </button>,
+  </button>
   <button
     className="operator"
     onClick={[Function]}
     type="button"
   >
     =
-  </button>,
-]
+  </button>
+</div>
 `;

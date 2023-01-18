@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component should render correctly 1`] = `
+<div
+  className="output-screen"
+>
+  <div
+    className="formula"
+  />
+  <div
+    className="output-text"
+  >
+    0
+  </div>
+</div>
+`;
