@@ -17,7 +17,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -28,20 +28,23 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-**Math Magicians** is a website for all fans of Mathematics.
+**Math Magicians** is a website that provides users with access to a calculator and a collection of math quotes.
+
+![Screenshot](app_screenshot.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- React.js
+- React, CRA
+- HTML, CSS, JavaScript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 - **Make calculations**
-- **Read a Math quote**
+- **Read random Math quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,14 +107,15 @@ You can deploy this project using:
 ```sh
   npm run build
 ```
+This will create a production-ready website in `build/` folder, which you can use to deploy the site.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-👤 **Hein Thant**
+👨‍🚀 **Hein Thant**
 
 - GitHub: [@githubhandle](https://github.com/indiecodermm)
 - Twitter: [@twitterhandle](https://twitter.com/hThantO)
