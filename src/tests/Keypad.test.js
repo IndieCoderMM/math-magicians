@@ -5,6 +5,7 @@ import Keypad from '../components/Keypad';
 describe('Keypad Component', () => {
   it('should render correctly', () => {
     const tree = TestRenderer.create(
+      // eslint-disable-next-line
       <Keypad updateCalculation={() => console.log('Calculation updated!')} />
     ).toJSON();
     expect(tree).toMatchSnapshot();
@@ -12,6 +13,7 @@ describe('Keypad Component', () => {
   it('should contain 19 buttons', async () => {
     // Arrange
     render(
+      // eslint-disable-next-line
       <Keypad updateCalculation={() => console.log('UpdateCalculation')} />
     );
     // Act

@@ -52,13 +52,8 @@ footer {
 }
 
 .title {
-  font-family:
-    'Trebuchet MS',
-    'Lucida Sans Unicode',
-    'Lucida Grande',
-    'Lucida Sans',
-    Arial,
-    sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-list {
@@ -120,12 +115,37 @@ footer {
   flex-direction: column;
   justify-content: center;
   font-size: 1.5rem;
+  background-color: var(--yellow);
+  color: #000;
 }
 
-.quote {
+.quote-box {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.quote-text {
   font-size: 1.2em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
+  padding: 2rem 3rem 0 3rem;
+}
+
+.open-quote {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.close-quote {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .author {
@@ -136,7 +156,7 @@ footer {
 /* Calculator page  */
 .calculator-page {
   background-color: var(--yellow);
-  color: #fff;
+  color: #000;
   display: flex;
 }
 

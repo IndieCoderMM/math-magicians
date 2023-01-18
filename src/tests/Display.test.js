@@ -1,6 +1,6 @@
-import Display from '../components/Display';
 import TestRenderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
+import Display from '../components/Display';
 
 describe('Display Component', () => {
   it('should render correctly', () => {
