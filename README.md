@@ -1,11 +1,7 @@
 <a name="readme-top"></a>
 
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Math Magicians ](#-math-magicians-)
+## 📑 Table of Contents
+- [🧙‍♂️ Math Magicians ](#️-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -17,16 +13,16 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Author ](#-author-)
+  - [📧 Contact ](#-contact-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
+  - [💖 Show your support ](#-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 🧙‍♂️ Math Magicians <a name="about-project"></a>
 
 **Math Magicians** is a website that provides users with access to a calculator and a collection of math quotes.
 
@@ -36,8 +32,15 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- React, CRA
-- HTML, CSS, JavaScript
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 
 <!-- Features -->
 
@@ -52,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+You can visit the live version of this website on [MathMagicians Webpage](https://math-magicians-oart.onrender.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,19 +110,21 @@ You can deploy this project using:
 ```sh
   npm run build
 ```
-This will create a production-ready website in `build/` folder, which you can use to deploy the site.
+This will create a production-ready build of your website in `build/` folder, which you can use to deploy on a static site server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 📧 Contact <a name="authors"></a>
 
-👨‍🚀 **Hein Thant**
+I am always looking for ways to improve my project. If you have any suggestions or ideas, I would love to hear from you.
 
-- GitHub: [@githubhandle](https://github.com/indiecodermm)
-- Twitter: [@twitterhandle](https://twitter.com/hThantO)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/hthantoo)
+[![Github](https://img.shields.io/badge/GitHub-673AB7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IndieCoderMM)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hthant_oo)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hthantoo)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hthant00chk@gmail.com)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,8 +132,9 @@ This will create a production-ready website in `build/` folder, which you can us
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [x] **Mobile UI**
 - [ ] **Add math quotes**
-- [ ] **Mobile UI**
+- [ ] **Add calculators**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +142,7 @@ This will create a production-ready website in `build/` folder, which you can us
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+I welcome any and all contributions to my website! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -144,9 +150,9 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## 💖 Show your support <a name="support"></a>
 
-If you like this project, please consider giving it a star.
+If you like this project, please consider giving it a ⭐.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
